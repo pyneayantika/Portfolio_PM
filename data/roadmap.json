@@ -1,0 +1,110 @@
+[
+  {
+    "id": "re-sustainability",
+    "company": "Re Sustainability Limited",
+    "role": "Executive (P&D)",
+    "period": "Dec 2022 – Jun 2023",
+    "year": 2022,
+    "pmSkillUnlocked": "Cross-Functional Alignment & Process Standardization",
+    "headline": "Standardizing documentation cycles and leading cross-functional compliance",
+    "story": "Coordinated 4+ cross-functional teams for compliance reporting with a 100% on-time delivery track record. Standardised reporting templates across departments, reducing the entire documentation cycle time by 40%.",
+    "pmEvidence": [
+      "Coordinated 4+ cross-functional teams for compliance reporting with 100% on-time delivery — driving alignment across divergent business units",
+      "Standardised internal reporting templates, reducing documentation cycle time by 40% — applying workflow optimization and UX thinking to operational bottlenecks",
+      "Decomposed multi-departmental compliance mandates into structured deliverables and accountable milestones"
+    ],
+    "transferableFramework": "Cross-functional execution, process standardization, cycle-time reduction, on-time delivery under constraints",
+    "ledTo": null,
+    "color": "teal"
+  },
+  {
+    "id": "kosher",
+    "company": "Kosher Climate India",
+    "role": "Sustainability Analyst — GHG Inventories",
+    "period": "Jun 2023 – Jul 2024",
+    "year": 2023,
+    "pmSkillUnlocked": "Data Architecture & Systems Thinking",
+    "headline": "Building data collection systems from zero",
+    "story": "Built carbon inventories for organizations that had never measured their emissions. This meant designing the data collection architecture from scratch — which departments own which data, what format it arrives in, where gaps exist, and how to make the system repeatable. Designing data products before having the conventional vocabulary for it.",
+    "pmEvidence": [
+      "Designed end-to-end data collection workflows across multiple departments — information architecture and data pipeline design",
+      "Created repeatable templates that non-technical teams could use without friction — UX thinking applied to internal tools",
+      "Identified and prioritized data gaps using materiality logic — the same 80/20 prioritization PMs use to decide what to build first"
+    ],
+    "transferableFramework": "Data modeling, process design, build-for-others-not-yourself, prioritization by impact",
+    "color": "teal"
+  },
+  {
+    "id": "ey",
+    "company": "Ernst & Young (EY)",
+    "role": "Climate Change & Sustainability Services — Advisory",
+    "period": "Jul 2024 – Sep 2025",
+    "year": 2024,
+    "pmSkillUnlocked": "Stakeholder Management & Requirements Translation",
+    "headline": "Translating ambiguity into actionable enterprise deliverables",
+    "story": "Partnered with enterprise clients navigating complex compliance and sustainability disclosure mandates. Every engagement decomposed high-ambiguity regulatory frameworks into actionable execution roadmaps — translating user needs, aligning cross-functional stakeholders (legal, ops, finance), and delivering high-stakes outputs under strict deadlines.",
+    "pmEvidence": [
+      "Scoped client engagements by decomposing vague regulatory requirements into structured workstreams — translating business goals into crisp specs",
+      "Managed competing stakeholder inputs across finance, legal, and operational units to converge on unified deliverables",
+      "Identified root pain points behind client requests to deliver scalable long-term compliance solutions"
+    ],
+    "transferableFramework": "Stakeholder mapping, requirements gathering, scope definition, delivery under constraints",
+    "color": "green"
+  },
+  {
+    "id": "bajaj",
+    "company": "Bajaj Finserv Group",
+    "role": "Sustainability Manager — ESG Data Architecture & Sprih PO",
+    "period": "Sep 2025 – Present",
+    "year": 2025,
+    "pmSkillUnlocked": "Platform Thinking, Data Governance & Scaled Execution",
+    "headline": "Owning the data platform across 8 regulated entities",
+    "story": "Managing group-level ESG data architecture across Bajaj Finserv's entire portfolio — 8 regulated financial services entities. Built and owned the GHG consolidation workbook (201,215 tCO₂e). Product owner of Sprih, a live enterprise GHG accounting SaaS. Designed cross-entity data pipelines, ran Scope 3 analysis, and coordinated BRSR reporting with compliance, finance, and operations teams.",
+    "pmEvidence": [
+      "Product owner of Sprih (live GHG SaaS) — defining requirements, managing rollout across entities, prioritizing feature requests from 8 different business units",
+      "Designed the group GHG consolidation architecture — a data platform problem requiring entity-level granularity and group-level aggregation (201K tCO₂e)",
+      "Ran the FY25→FY26 variance analysis workflow — built the process, trained teams, delivered board-ready outputs",
+      "Coordinated BRSR reporting across regulated entities — multi-stakeholder program management with hard regulatory deadlines"
+    ],
+    "transferableFramework": "Platform thinking, data governance, program management, vendor evaluation, cross-functional execution at scale",
+    "color": "green"
+  },
+  {
+    "id": "nextleap",
+    "company": "NextLeap — AI PM Fellowship",
+    "role": "Top 1% Fellow, Cohort 46",
+    "period": "Feb 2026 – Jun 2026",
+    "year": 2026,
+    "pmSkillUnlocked": "Structured Product Frameworks & AI-Native Thinking",
+    "headline": "Formalizing the instinct into repeatable method",
+    "story": "The fellowship gave rigorous structure to intuitive problem solving. Learned and applied FOCUSED, GAME, SIFTED, and JTBD frameworks. Built teardowns of Myntra (agentic copilot redesign, 30 respondents), Meesho (1,055 review analysis), and Groww (BERTopic clustering). Rethinking product flows natively around agentic capabilities.",
+    "pmEvidence": [
+      "Completed structured teardowns with real primary research (30-respondent survey for Myntra Maya, 43-respondent survey for Claude Prism)",
+      "Applied guesstimate frameworks (GAME, SIFTED) to real market sizing problems",
+      "Designed a 5-agent agentic architecture for Myntra Maya — systems design for AI products",
+      "Scored Top 1% — validated strong product acumen and analytical rigor"
+    ],
+    "transferableFramework": "FOCUSED, GAME, SIFTED, JTBD, product teardowns, primary research, AI product design",
+    "ledTo": "Claude Prism, Groww Pulse",
+    "color": "amber"
+  },
+  {
+    "id": "now",
+    "company": "Portfolio Sprint + AI Product Builder",
+    "role": "Building — 10+ products in 60 days",
+    "period": "2025–Present",
+    "year": 2025,
+    "pmSkillUnlocked": "Ship Velocity & Zero-to-One Execution",
+    "headline": "Proving I don't just plan products — I ship them",
+    "story": "The portfolio sprint is the final proof point. Built and shipped RAGBench (36 RAG pipeline configs, real GHG Protocol PDFs), Policy Intelligence (insurance PDF to family protection intel), Claude Prism (AI output evaluation, deployed), ClimateLens (climate risk copilot for Indian banks), and Groww Pulse (BERTopic review clustering). All under a ₹0 budget using Groq, Ollama, ChromaDB, Supabase, and Vercel.",
+    "pmEvidence": [
+      "Shipped 10+ products in 60 days — velocity is a product skill",
+      "Every project follows the same discipline: problem → user research → build → deploy → measure",
+      "₹0 budget constraint turned into a feature — forces ruthless prioritization and creative architecture",
+      "Each project is a self-contained case study with problem, insight, solution, and honest reflection"
+    ],
+    "transferableFramework": "Zero-to-one execution, rapid prototyping, constraint-driven design, vibe coding with AI agents",
+    "active": true,
+    "color": "amber"
+  }
+]

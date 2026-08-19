@@ -1,0 +1,72 @@
+{
+  "FOCUSED": {
+    "name": "FOCUSED",
+    "tagline": "Product Design & Problem Scoping",
+    "purpose": "Deconstructing messy problem spaces into ruthlessly scoped MVPs",
+    "steps": [
+      { "letter": "F", "name": "Find the problem", "desc": "What is the core structural pain point rather than the noisy symptom?" },
+      { "letter": "O", "name": "Outline user segments", "desc": "Who experiences this friction and what are their distinct incentives?" },
+      { "letter": "C", "name": "Crystallize the pain", "desc": "Quantify the real cost of inertia in time, capital, or compliance risk." },
+      { "letter": "U", "name": "Understand alternatives", "desc": "How is the problem solved today and where do existing workarounds break?" },
+      { "letter": "S", "name": "Scope the solution", "desc": "Define crisp MVP boundaries that validate the riskiest assumption." },
+      { "letter": "E", "name": "Execute MVP", "desc": "Build the simplest automated workflow that delivers tangible value." },
+      { "letter": "D", "name": "Define metrics", "desc": "Establish leading North Star metrics and counter-metric guardrails." }
+    ],
+    "workedExample": {
+      "problem": "ESG compliance officers at Indian NBFCs spend 3+ weeks compiling BRSR reports manually",
+      "applied": {
+        "F": "Compliance officers at mid-sized NBFCs waste 15–20 days per reporting cycle collecting, verifying, and formatting non-standardized ESG data across disparate branch offices.",
+        "O": "Primary: ESG Compliance Officers at NBFCs (500–5,000 employees). Secondary: Chief Financial Officers who sign off disclosures. Tertiary: Board Audit Committees.",
+        "C": "At ₹1.5L/month avg salary × 0.75 months wasted = ₹1.12L per officer per reporting cycle. 500 NBFCs × 2 officers = ₹11.25 Cr industry productivity loss.",
+        "U": "Disjointed Excel sheets (60%), high-priced Big 4 advisory (30%), monolithic legacy enterprise suites (10% — too complex/costly for mid-market).",
+        "S": "MVP Scope: Automated ingestion of utility bills + diesel generator logs → auto-calculate Scope 1 & 2 GHG emissions → pre-fill SEBI BRSR Principle 6 table. Single principle, single entity.",
+        "E": "Upload-based web tool with OCR parsing, emission factor lookup table, and instant PDF/Excel export. Piloted with 5 mid-tier NBFCs.",
+        "D": "North Star: Time-to-complete BRSR Principle 6 drops from 5 business days to under 4 hours. Guardrail: 0% calculation discrepancies against standard GHG Protocol factors."
+      }
+    }
+  },
+  "GAME": {
+    "name": "GAME",
+    "tagline": "Guesstimate & Market Sizing",
+    "purpose": "Structured bottom-up and top-down estimation under incomplete information",
+    "steps": [
+      { "letter": "G", "name": "Ground the question", "desc": "Define the exact boundary conditions, geography, and unit of measurement." },
+      { "letter": "A", "name": "Assumptions & anchors", "desc": "Anchor against verified reference facts and regulatory mandates." },
+      { "letter": "M", "name": "Math layer by layer", "desc": "Construct transparent formulas with clear multipliers and conversion rates." },
+      { "letter": "E", "name": "Error-check & sanity", "desc": "Stress-test the result against macro industry revenues and sanity bounds." }
+    ],
+    "workedExample": {
+      "problem": "How many ESG software buyers exist in India in 2026?",
+      "applied": {
+        "G": "Estimating the total number of enterprise and mid-market organizations in India actively purchasing automated ESG accounting software in FY26.",
+        "A": "SEBI BRSR mandate covers top 1,000 listed entities. RBI draft norms impact ~85 major NBFCs & urban cooperative banks. ~50 public sector undertakings and ~500 voluntary mid-corps with global supply chain commitments.",
+        "M": "1. Mandated listed (top 1,000) × 70% unserved by modern SaaS = 700 entities. 2. Regulated BFSI (135 entities) × 60% procurement intent = 81 entities. 3. Voluntary exporters (500 entities) × 30% conversion = 150 entities. Total Addressable Active Buyers = 931 organizations.",
+        "E": "At an average annual contract value of $25,000 (₹21 Lakhs), 931 buyers represent an addressable domestic SaaS ARR of ~$23.3 Million (₹195 Cr), matching industry analyst estimates of India's ESG SaaS expansion."
+      }
+    }
+  },
+  "SIFTED": {
+    "name": "SIFTED",
+    "tagline": "Multi-Variable Carbon & Data Estimation",
+    "purpose": "Rigorous estimation of multi-tiered environmental & operational variables",
+    "steps": [
+      { "letter": "S", "name": "Scope it", "desc": "Fix boundary, timeline, and precise carbon/cost metric." },
+      { "letter": "I", "name": "Identify segments", "desc": "Partition universe into mutually exclusive, collectively exhaustive buckets." },
+      { "letter": "F", "name": "Fact-anchor each segment", "desc": "Attach empirical data points to each bucket." },
+      { "letter": "T", "name": "Think through conversion", "desc": "Apply carbon emission factors and operational multipliers." },
+      { "letter": "E", "name": "Estimate range", "desc": "Provide confidence intervals (P10, P50, P90) rather than point estimates." },
+      { "letter": "D", "name": "Defend your logic", "desc": "Identify key sensitivity levers and what conditions break the model." }
+    ],
+    "workedExample": {
+      "problem": "Estimate daily carbon emissions from food delivery fleets in Mumbai",
+      "applied": {
+        "S": "Total daily CO₂e emitted by last-mile motorized meal deliveries across the Mumbai metropolitan region in 2026.",
+        "I": "Fleet Segments: ICE 2-wheelers (petrol) ~85%, Electric 2-wheelers (EV) ~12%, Non-motorized bicycles ~3%.",
+        "F": "Total daily deliveries in Mumbai: ~1,200,000 orders. Average trip distance (restaurant to doorstep + idle leg): 4.8 km.",
+        "T": "ICE Bikes: (1.02M trips × 4.8 km) × 58g CO₂/km = 284 tonnes. EV Fleet: (144K trips × 4.8 km) × 18g CO₂/km (grid avg) = 12.4 tonnes. Bicycles: 36K trips × 0g = 0 tonnes. Mid Estimate: ~296.4 tCO₂e/day.",
+        "E": "P10 (Low): 240 tCO₂e (higher EV cluster adoption). P50 (Expected): 296 tCO₂e. P90 (High): 365 tCO₂e (monsoon detour and high idle-traffic factors).",
+        "D": "Sensitivity analysis: Fleet electrification is the primary lever. A 20% shift from ICE to EV reduces fleet emissions by 53 tonnes CO₂ daily."
+      }
+    }
+  }
+}

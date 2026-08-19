@@ -1,0 +1,15 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M-50 100 C 100 80, 250 180, 400 120 C 550 60, 650 150, 750 130" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <path d="M-50 180 C 80 160, 220 260, 380 200 C 540 140, 620 230, 750 210" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M-50 260 C 120 240, 260 340, 420 280 C 580 220, 640 310, 750 290" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 2"/>
+  <path d="M-50 340 C 90 320, 230 420, 390 360 C 550 300, 630 390, 750 370" stroke="currentColor" stroke-width="1.2"/>
+  <path d="M-50 420 C 130 400, 270 500, 430 440 C 590 380, 650 470, 750 450" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <path d="M-50 500 C 70 480, 210 580, 370 520 C 530 460, 610 550, 750 530" stroke="currentColor" stroke-width="1.2"/>
+  <ellipse cx="280" cy="300" rx="90" ry="50" stroke="currentColor" stroke-width="1.2" transform="rotate(-15 280 300)"/>
+  <ellipse cx="280" cy="300" rx="140" ry="80" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 3" transform="rotate(-15 280 300)"/>
+  <ellipse cx="280" cy="300" rx="190" ry="110" stroke="currentColor" stroke-width="1.2" transform="rotate(-15 280 300)"/>
+  <ellipse cx="480" cy="180" rx="70" ry="40" stroke="currentColor" stroke-width="1.2" transform="rotate(20 480 180)"/>
+  <ellipse cx="480" cy="180" rx="110" ry="65" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 2" transform="rotate(20 480 180)"/>
+  <circle cx="280" cy="300" r="3" fill="currentColor"/>
+  <circle cx="480" cy="180" r="3" fill="currentColor"/>
+</svg>
