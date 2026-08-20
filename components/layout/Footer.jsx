@@ -46,6 +46,17 @@ export default function Footer() {
           <div className="flex flex-col md:items-end gap-3">
             <div className="flex items-center gap-3">
               <a
+                href={SOCIAL_LINKS.nextleap}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 rounded-xl bg-amber/15 hover:bg-amber/25 dark:bg-amber-soft/20 dark:hover:bg-amber-soft/30 text-amber-dark dark:text-amber transition-all hover:scale-105 shadow-sm"
+                aria-label="NextLeap Portfolio & Grad Deck"
+                title="NextLeap Portfolio & Grad Deck"
+              >
+                <Sparkles className="w-4 h-4" />
+              </a>
+
+              <a
                 href={SOCIAL_LINKS.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"

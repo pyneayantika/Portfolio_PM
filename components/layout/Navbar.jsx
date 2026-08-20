@@ -52,8 +52,22 @@ export default function Navbar({ onOpenChat }) {
           ))}
         </nav>
 
-        {/* Right: Actions (Theme Toggle + Chat Button + CTA) */}
-        <div className="flex items-center gap-2.5">
+        {/* Right: Actions (NextLeap Portfolio + Theme Toggle + Chat Button + CTA) */}
+        <div className="flex items-center gap-2 sm:gap-2.5">
+          {/* NextLeap Portfolio Link */}
+          <a
+            href={SOCIAL_LINKS.nextleap}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-amber/15 text-amber-dark dark:bg-amber-soft/20 dark:text-amber border border-amber/30 hover:bg-amber/25 transition-all hover:scale-[1.02]"
+            title="NextLeap Portfolio & Grad Deck"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-amber-dark dark:text-amber" />
+            <span className="hidden sm:inline">NextLeap Portfolio</span>
+            <span className="sm:hidden">NextLeap</span>
+            <ArrowUpRight className="w-3 h-3 opacity-70" />
+          </a>
+
           {/* Theme Toggle Button */}
           <button
             onClick={toggleTheme}
@@ -71,7 +85,7 @@ export default function Navbar({ onOpenChat }) {
           {onOpenChat && (
             <button
               onClick={onOpenChat}
-              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-sand/30 hover:bg-sand/60 dark:bg-forest-light dark:hover:bg-forest-light/80 text-forest dark:text-parchment transition-all"
+              className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-sand/30 hover:bg-sand/60 dark:bg-forest-light dark:hover:bg-forest-light/80 text-forest dark:text-parchment transition-all"
             >
               <MessageSquare className="w-3.5 h-3.5 text-green dark:text-green-bright" />
               <span>Ask AI</span>
@@ -83,7 +97,7 @@ export default function Navbar({ onOpenChat }) {
             href={SOCIAL_LINKS.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-green text-parchment dark:bg-green-bright dark:text-forest-deep shadow hover:bg-green-dark transition-all hover:scale-[1.02]"
+            className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-semibold bg-green text-parchment dark:bg-green-bright dark:text-forest-deep shadow hover:bg-green-dark transition-all hover:scale-[1.02]"
           >
             <span>Let's Talk</span>
             <ArrowUpRight className="w-3.5 h-3.5" />

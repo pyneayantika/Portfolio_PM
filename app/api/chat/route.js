@@ -74,7 +74,11 @@ export async function POST(request) {
     // Fallback AI simulation if Groq key is unset or in local demo mode
     if (!reply) {
       const lower = lastUserMsg.toLowerCase()
-      if (lower.includes('different') || lower.includes('why hire') || lower.includes('stand out')) {
+      if (lower.includes('nextleap') || lower.includes('next leap') || lower.includes('grad deck') || lower.includes('deck') || lower.includes('capstone')) {
+        reply = "You can view my verified NextLeap Portfolio & Graduation Deck at https://nextleap.app/portfolio/ayantika-pyne ! As a Top 1% Fellow in NextLeap's AI PM Fellowship (Cohort 46), my portfolio contains my comprehensive Grad Deck (end-to-end product discovery, PRD, user research, wireframes, and GTM strategy), along with teardowns of Myntra Maya, Meesho Returns, and Groww Pulse."
+      } else if (lower.includes('project') || lower.includes('case study') || lower.includes('portfolio') || lower.includes('work')) {
+        reply = "My portfolio includes 10+ shipped artifacts and teardowns: RAGBench (36 RAG configs benchmarked), PolicyLens (Insurance hybrid RAG), Claude Prism (AI evaluation layer), Myntra Maya 5-Agent Copilot, and ClimateLens. You can explore them on this site or view my official NextLeap Portfolio & Grad Deck here: https://nextleap.app/portfolio/ayantika-pyne !"
+      } else if (lower.includes('different') || lower.includes('why hire') || lower.includes('stand out')) {
         reply = "What makes me different is that I don't treat ESG as a policy checkbox — I treat it as a hard systems & data architecture problem. After 4 years of translating messy mandates across 8 regulated entities, I build AI-native products with deep respect for data integrity, precision metrics, and ruthless scoping."
       } else if (lower.includes('ragbench') || lower.includes('rag')) {
         reply = "RAGBench is my benchmark framework where I tested 36 RAG pipeline configurations against complex multi-table GHG Protocol PDFs on a ₹0 budget constraint. I compared different chunking strategies, hybrid BM25 + dense retrieval, and embedding architectures."
@@ -83,9 +87,9 @@ export async function POST(request) {
       } else if (lower.includes('role') || lower.includes('looking for') || lower.includes('opportunity')) {
         reply = "I'm actively targeting APM / PM-1 / Product Manager roles at AI-native startups, Climate-tech, FinTech, and B2B SaaS organizations where I can solve high-friction data problems and ship user-centric products."
       } else if (lower.includes('myntra') || lower.includes('maya') || lower.includes('teardown')) {
-        reply = "In my Myntra Maya teardown, I redesigned the conversational shopping experience into an autonomous 5-agent system (Stylist, Sizing, Budget, Returns Predictor, and Orchestrator) validated with a 30-respondent survey."
+        reply = "In my Myntra Maya teardown, I redesigned the conversational shopping experience into an autonomous 5-agent system (Stylist, Sizing, Budget, Returns Predictor, and Orchestrator) validated with a 30-respondent survey. You can also review it on my NextLeap portfolio: https://nextleap.app/portfolio/ayantika-pyne"
       } else {
-        reply = `Thanks for asking! I'm Ayantika Pyne — Sustainability Manager & Product Owner at Bajaj Finserv Group, where I manage ESG data architecture across 8 entities and built Sprih GHG accounting SaaS. Feel free to explore my works above or reach me at pyneayantika1998@gmail.com!`
+        reply = `Thanks for asking! I'm Ayantika Pyne — Sustainability Manager & Product Owner at Bajaj Finserv Group, where I manage ESG data architecture across 8 entities and built Sprih GHG accounting SaaS. Explore my works here or check out my NextLeap portfolio (https://nextleap.app/portfolio/ayantika-pyne). Feel free to reach me at pyneayantika1998@gmail.com!`
       }
     }
 

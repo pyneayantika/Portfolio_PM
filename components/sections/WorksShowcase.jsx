@@ -1,11 +1,11 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { FolderGit2, Sparkles, RefreshCw } from 'lucide-react'
+import { FolderGit2, Sparkles, RefreshCw, ArrowUpRight } from 'lucide-react'
 import FilterTabs from '@/components/ui/FilterTabs'
 import ProjectCard from '@/components/ui/ProjectCard'
 import FileViewer from '@/components/ui/FileViewer'
-import { CATEGORIES } from '@/lib/constants'
+import { CATEGORIES, SOCIAL_LINKS } from '@/lib/constants'
 import { fetchPublishedWorks } from '@/lib/supabase'
 import { trackEvent } from '@/lib/analytics'
 
@@ -72,6 +72,35 @@ export default function WorksShowcase() {
           <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin text-green' : ''}`} />
           <span>Real-time Sync</span>
         </button>
+      </div>
+
+      {/* NextLeap Portfolio & Grad Deck Callout Banner */}
+      <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-amber/10 dark:bg-forest-surface border border-amber/30 dark:border-amber/25 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="flex items-center gap-3.5">
+          <div className="w-10 h-10 rounded-xl bg-amber/20 dark:bg-amber/15 text-amber-dark dark:text-amber flex items-center justify-center shrink-0 shadow-sm">
+            <Sparkles className="w-5 h-5" />
+          </div>
+          <div>
+            <div className="text-sm font-semibold text-forest dark:text-parchment flex flex-wrap items-center gap-2">
+              <span>NextLeap AI PM Fellowship Grad Deck & Portfolio</span>
+              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-amber/20 text-amber-dark dark:text-amber border border-amber/30">
+                Top 1% Fellow
+              </span>
+            </div>
+            <p className="text-xs text-forest/70 dark:text-parchment/70 mt-0.5">
+              Explore my graduation capstone deck, end-to-end teardowns (Myntra Maya, Meesho, Groww), and market sizing frameworks.
+            </p>
+          </div>
+        </div>
+        <a
+          href={SOCIAL_LINKS.nextleap}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-amber text-forest-deep dark:bg-amber dark:text-forest-deep shadow hover:bg-amber-dark dark:hover:bg-amber-light transition-all hover:scale-[1.02] shrink-0"
+        >
+          <span>View NextLeap Deck</span>
+          <ArrowUpRight className="w-3.5 h-3.5" />
+        </a>
       </div>
 
       {/* Filter Tabs */}
